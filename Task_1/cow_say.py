@@ -17,10 +17,10 @@ if args.cowfile is not None:
 params['message']=args.message
 from cowsay import cowsay
 from cowsay import list_cows
-if args.lis None:
+if args.l is None:
 	print(cowsay(**params))
 else:
-	print(list_cows())
+	print(str(list_cows()))
 message = """
 The most remarkable thing about my mother is that for thirty years she served
 the family nothing but leftovers.  The original meal has never been found.
